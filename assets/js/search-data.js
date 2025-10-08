@@ -9,12 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
+  },{id: "nav-teaching",
+          title: "teaching",
+          description: "Materials for courses you taught. Replace this text with your description.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/teaching/";
           },
         },{id: "nav-publications",
           title: "publications",
@@ -30,49 +30,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+        },{id: "nav-blog",
+          title: "blog",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/repositories/";
+            window.location.href = "/blog/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -440,16 +405,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-congratulations-to-emporia-state-university-alum-kaylee-dinwiddie-on-joining-the-legal-psychology-ph-d-program-at-florida-international-university",
+          title: 'Congratulations to Emporia State University alum Kaylee Dinwiddie on joining the Legal Psychology...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -496,42 +453,52 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "teaching-project-4",
+          title: 'project 4',
+          description: "another without an image",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/4_project/";
+            },},{id: "teaching-project-5",
+          title: 'project 5',
+          description: "a project with a background image",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/5_project/";
+            },},{id: "teaching-project-6",
+          title: 'project 6',
+          description: "a project with no image",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/6_project/";
+            },},{id: "teaching-project-7",
+          title: 'project 7',
+          description: "with background image",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/7_project/";
+            },},{id: "teaching-project-8",
+          title: 'project 8',
+          description: "an other project with a background image and giscus comments",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/8_project/";
+            },},{id: "teaching-project-9",
+          title: 'project 9',
+          description: "another project with an image 🎉",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/9_project/";
+            },},{id: "teaching-legal-psychology",
+          title: 'Legal Psychology',
+          description: "a project that redirects to another website",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/legal-psychology/";
+            },},{id: "teaching-research-methods",
+          title: 'Research Methods',
+          description: "with background image",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/research-methods/";
+            },},{id: "teaching-science-of-learning",
+          title: 'Science of Learning',
+          description: "a project with a background image and giscus comments",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/science-of-learning/";
             },},{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
-        },
-      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
