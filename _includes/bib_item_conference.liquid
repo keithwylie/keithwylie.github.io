@@ -1,0 +1,36 @@
+{%- comment -%}
+Custom layout for conference presentations
+• No "In" before conference
+• No italics on conference name
+• Keep "Mon YYYY" right after conference
+• Trim long date ranges from the presentation note (keep only "Paper presentation" / "Poster presentation", etc.)
+{%- endcomment -%}
+
+{%- assign ref = reference -%}
+
+<li class="csl-entry">
+  {{ ref }}
+
+  {%- assign conf = entry.booktitle | to_s | strip -%}
+  {%- assign yr = entry.year | to_s | strip -%}
+  {%- assign mo = entry.month | to_s | strip -%}
+
+  {%- if conf != "" -%}
+    <div class="kv-venue" style="font-style: normal;">
+      {{ conf }}{%- if mo != "" or yr != "" -%}, 
+        {%- if mo != "" -%}{{ mo | slice: 0, 3 }}{%- endif -%}
+        {%- if yr != "" -%} {{ yr }}{%- endif -%}
+      {%- endif -%}
+    </div>
+  {%- endif -%}
+
+  {%- assign note = entry.note | to_s | strip -%}
+  {%- if note != "" -%}
+    {%- comment -%}
+      Keep only the leading phrase before any comma,
+      e.g., "Paper presentation, April 11–13" -> "Paper presentation"
+    {%- endcomment -%}
+    {%- assign clean_note = note | split: "," | first | strip -%}
+    <div class="kv-presentation">{{ clean_note }}</div>
+  {%- endif -%}
+</li>
