@@ -14,6 +14,5 @@ nav_order: 4
    --file presentations
    --group_by year
    --order descending
-   --template bib_item_conference
 %}
 </div>
