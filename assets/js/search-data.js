@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/al-folio/publications/";
           },
+        },{id: "nav-presentations",
+          title: "presentations",
+          description: "conference papers, posters, and invited talks",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/al-folio/presentations/";
+          },
         },{id: "nav-repositories",
           title: "repositories",
           description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
@@ -501,11 +508,36 @@ ninja.data = [{
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
           section: "Teachings",handler: () => {
               window.location.href = "/al-folio/teachings/data-science-fundamentals/";
+            },},{id: "teachings-forensic-psychology",
+          title: 'forensic psychology',
+          description: "psychology applied to courts, policing, and corrections",
+          section: "Teachings",handler: () => {
+              window.location.href = "/al-folio/teachings/forensic-psychology/";
             },},{id: "teachings-introduction-to-machine-learning",
           title: 'Introduction to Machine Learning',
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
           section: "Teachings",handler: () => {
               window.location.href = "/al-folio/teachings/introduction-to-machine-learning/";
+            },},{id: "teachings-legal-psychology",
+          title: 'legal psychology',
+          description: "applying psychological science to investigations, trials, and justice",
+          section: "Teachings",handler: () => {
+              window.location.href = "/al-folio/teachings/legal-psychology/";
+            },},{id: "teachings-pseudoscience",
+          title: 'pseudoscience',
+          description: "critical thinking and scientific literacy in psychology",
+          section: "Teachings",handler: () => {
+              window.location.href = "/al-folio/teachings/psychology-of-pseudoscience/";
+            },},{id: "teachings-research-methods",
+          title: 'research methods',
+          description: "how psychologists ask questions and build evidence",
+          section: "Teachings",handler: () => {
+              window.location.href = "/al-folio/teachings/research-methods/";
+            },},{id: "teachings-science-of-learning",
+          title: 'science of learning',
+          description: "evidence-based strategies for studying, remembering, and thinking",
+          section: "Teachings",handler: () => {
+              window.location.href = "/al-folio/teachings/science-of-learning/";
             },},{
         id: 'social-linkedin',
         title: 'LinkedIn',
