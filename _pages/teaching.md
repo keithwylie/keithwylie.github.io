@@ -22,7 +22,7 @@ If you'd like more information about a specific course or potential collaboratio
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {% assign categorized_projects = site.teaching | where: "category", category %}
+  {% assign categorized_projects = site.teachings | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   {% if page.horizontal %}
   <div class="container">
@@ -43,7 +43,7 @@ If you'd like more information about a specific course or potential collaboratio
 
 {% else %}
 
-{% assign sorted_projects = site.teaching | sort: "importance" %}
+{% assign sorted_projects = site.teachings | sort: "importance" %}
 
 {% if page.horizontal %}
   <div class="container">
