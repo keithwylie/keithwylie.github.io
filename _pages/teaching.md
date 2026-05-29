@@ -2,14 +2,63 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+# description: Courses I teach and have taught.
 nav: true
-nav_order: 6
-calendar: true
+nav_order: 2
+horizontal: false
+# Set this only if you actually want categories (see notes below)
+display_categories: [electives, foundations, core]
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+I've taught across the curriculum, from upper-level electives in legal and forensic topics to foundational courses for the psychology major to first-year social scientific inquiry courses in Flagler's Core curriculum.
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+Below are brief snapshots of several courses in my regular rotation, including sample objectives, resources, and learning activities.
 
-{% include courses.liquid %}
+If you'd like more information about a specific course or potential collaboration, please feel free to contact me.
+
+<div class="projects">
+{% if site.enable_project_categories and page.display_categories %}
+  {% for category in page.display_categories %}
+  <a id="{{ category }}" href=".#{{ category }}">
+    <h2 class="category">{{ category }}</h2>
+  </a>
+  {% assign categorized_projects = site.teaching | where: "category", category %}
+  {% assign sorted_projects = categorized_projects | sort: "importance" %}
+  {% if page.horizontal %}
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% endfor %}
+
+{% else %}
+
+{% assign sorted_projects = site.teaching | sort: "importance" %}
+
+{% if page.horizontal %}
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+{% else %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+{% endif %}
+{% endif %}
+</div>
