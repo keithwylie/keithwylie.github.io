@@ -7,13 +7,11 @@ nav: true
 nav_order: 3
 ---
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
 {% include bib_search.liquid %}
 
 <div class="publications">
+
+<p class="advisee-note">Highlighted names indicate student advisees at the time of research.</p>
 
 {% bibliography %}
 
