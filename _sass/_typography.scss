@@ -4,6 +4,34 @@
 
 @use "variables" as v;
 
+body {
+  font-weight: 400;
+}
+
+p,
+li,
+div,
+span {
+  font-weight: 400;
+}
+
+.navbar,
+.navbar-brand,
+.nav-link {
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+  font-weight: 700;
+}
+
 p,
 h1,
 h2,
