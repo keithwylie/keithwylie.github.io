@@ -4,6 +4,11 @@
 
 @use "variables" as v;
 
+::highlight(search) {
+  background-color: v.$gold-color-light;
+  color: v.$black-color;
+}
+
 #bibsearch {
   border: 1px solid var(--global-divider-color);
   border-radius: 999px;
@@ -24,6 +29,7 @@
 
   &::selection {
     background: v.$gold-color-light;
+    color: v.$black-color;
   }
 }
 
