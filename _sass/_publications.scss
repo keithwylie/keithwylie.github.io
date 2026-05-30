@@ -4,6 +4,73 @@
 
 @use "variables" as v;
 
+#bibsearch {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  box-shadow: none;
+  margin-bottom: 1.5rem;
+  padding: 0.55rem 1rem;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
+  width: 100%;
+
+  &:focus {
+    border-color: v.$gold-color;
+    box-shadow: 0 0 0 0.2rem v.$gold-color-light;
+    outline: none;
+  }
+
+  &::selection {
+    background: v.$gold-color-light;
+  }
+}
+
+.presentation-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+
+  .btn {
+    background: var(--global-bg-color);
+    border: 1px solid var(--global-theme-color);
+    border-radius: 999px;
+    color: var(--global-theme-color);
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    padding: 0.4rem 0.95rem;
+    transition:
+      background-color 0.2s ease,
+      border-color 0.2s ease,
+      box-shadow 0.2s ease,
+      color 0.2s ease,
+      transform 0.2s ease;
+
+    &:hover,
+    &:focus {
+      background: v.$gold-color-light;
+      border-color: v.$gold-color;
+      color: var(--global-text-color);
+      outline: none;
+      transform: translateY(-1px);
+    }
+
+    &.active {
+      background: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+      box-shadow: 0 0 0 0.18rem v.$gold-color-light;
+      color: v.$white-color;
+    }
+
+    &.active:hover,
+    &.active:focus {
+      box-shadow: 0 0 0 0.22rem v.$gold-color-light;
+      color: v.$white-color;
+    }
+  }
+}
+
 .publications {
   margin-top: 2rem;
 
@@ -121,9 +188,12 @@
           padding-bottom: 0.25rem;
           margin-left: 0;
 
-          &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+          &:hover,
+          &:focus {
+            color: var(--global-text-color);
+            border-color: v.$gold-color;
+            box-shadow: 0 0 0 0.15rem v.$gold-color-light;
+            text-decoration: none;
           }
         }
         a.award.btn {
