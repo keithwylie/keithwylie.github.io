@@ -11,6 +11,16 @@ Legal Psychology examines how psychological science can help us understand, eval
 
 Rather than treating psychology and law as separate worlds, I frame the course around a shared concern with justice: how legal systems make decisions, how those decisions can go wrong, and how psychological science can help identify better practices.
 
+## Learning Objectives
+
+By the end of the course, students will be able to:
+
+- Explain major theories, concepts, and empirical findings in legal psychology, including research on eyewitness memory, interrogation, confession evidence, jury decision-making, and punishment.
+- Apply psychological research to real and simulated legal scenarios involving investigation, plea bargaining, trial procedures, sentencing, and correctional decision-making.
+- Evaluate the strengths, limitations, and potential biases of legal evidence, including eyewitness identifications, confession evidence, forensic evidence, and expert testimony.
+- Analyze how legal outcomes are shaped by cognitive processes, social influence, developmental factors, institutional pressures, and unequal access to legal resources.
+- Translate psychological research into clear, evidence-based recommendations for legal actors, policymakers, or public audiences.
+
 ## Course Units
 
 The course typically moves through the legal system in roughly chronological order, from investigation through punishment and reform:
@@ -40,7 +50,3 @@ This course emphasizes active, applied learning. Students work with real cases, 
 - **Research-to-Practice Translation:** Students practice turning psychological research into usable recommendations for investigators, attorneys, courts, and policymakers. This might include proposing interrogation reforms, designing better voir dire questions, evaluating the risks of eyewitness evidence, or explaining how cognitive bias can affect forensic decision-making.
 
 - **Reflection on Justice and System Design:** Throughout the course, students consider how legal outcomes are shaped by human cognition, social pressure, developmental vulnerability, discretion, and unequal access to resources. The goal is to help students think carefully about how psychological science can contribute to fairer legal processes.
-
-## Skills Students Practice
-
-By the end of the course, students practice explaining core concepts in psychology and law, applying psychological research to legal investigation and trial contexts, evaluating the strengths and limits of legal evidence, communicating psychological science to broad audiences, and thinking critically about justice, public policy, and legal reform.
