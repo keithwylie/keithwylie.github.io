@@ -113,41 +113,41 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "teachings-data-science-fundamentals",
+            },},{id: "teaching-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
-            },},{id: "teachings-forensic-psychology",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/data-science-fundamentals/";
+            },},{id: "teaching-forensic-psychology",
           title: 'forensic psychology',
           description: "psychology applied to courts, policing, and corrections",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/forensic-psychology/";
-            },},{id: "teachings-introduction-to-machine-learning",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/forensic-psychology/";
+            },},{id: "teaching-introduction-to-machine-learning",
           title: 'Introduction to Machine Learning',
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
-            },},{id: "teachings-legal-psychology",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/introduction-to-machine-learning/";
+            },},{id: "teaching-legal-psychology",
           title: 'legal psychology',
           description: "applying psychological science to investigations, trials, and justice",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/legal-psychology/";
-            },},{id: "teachings-pseudoscience",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/legal-psychology/";
+            },},{id: "teaching-pseudoscience",
           title: 'pseudoscience',
           description: "critical thinking and scientific literacy in psychology",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/psychology-of-pseudoscience/";
-            },},{id: "teachings-research-methods",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/psychology-of-pseudoscience/";
+            },},{id: "teaching-research-methods",
           title: 'research methods',
           description: "how psychologists ask questions and build evidence",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/research-methods/";
-            },},{id: "teachings-science-of-learning",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/research-methods/";
+            },},{id: "teaching-science-of-learning",
           title: 'science of learning',
           description: "evidence-based strategies for studying, remembering, and thinking",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/science-of-learning/";
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/science-of-learning/";
             },},{
         id: 'social-linkedin',
         title: 'LinkedIn',
