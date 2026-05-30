@@ -120,7 +120,7 @@ ninja.data = [{
               window.location.href = "/teaching/data-science-fundamentals/";
             },},{id: "teaching-forensic-psychology",
           title: 'forensic psychology',
-          description: "psychology applied to courts, policing, and corrections",
+          description: "forensic practice, assessment, expert testimony, corrections, and public-serving psychological science",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/forensic-psychology/";
             },},{id: "teaching-introduction-to-machine-learning",
