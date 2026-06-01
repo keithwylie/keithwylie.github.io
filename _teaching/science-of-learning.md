@@ -4,7 +4,7 @@ title: science of learning
 description: evidence-based strategies for studying, remembering, and thinking
 category: core
 importance: 1
-img: /assets/img/teaching/science-of-learning.png
+img: /assets/img/learning.jpg
 ---
 
 **course description**
