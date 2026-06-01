@@ -4,7 +4,7 @@ title: pseudoscience
 description: critical thinking and scientific literacy in psychology
 category: electives
 importance: 7
-img: /assets/img/teaching/pseudoscience.png
+img: /assets/img/pseudoscience.jpg
 ---
 
 **course description**
