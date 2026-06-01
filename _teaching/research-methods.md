@@ -4,7 +4,7 @@ title: research methods
 description: how psychologists ask questions and build evidence
 category: foundations
 importance: 1
-img: /assets/img/teaching/research-methods.png
+img: /assets/img/research.jpg
 ---
 
 **course description**
