@@ -38,9 +38,17 @@ The course is organized around memorable case studies that ask students to apply
 
 ## Representative Readings and Resources
 
-Readings vary by semester and include textbook chapters, peer-reviewed articles, popular science essays, podcasts, videos, and science communication examples. Representative materials have included Lisa Feldman Barrett's essay on “zombie ideas,” Clark et al.'s article on religiosity and violent crime, articles on polygraphs and offender profiling, Lilienfeld's work on science and pseudoscience in law enforcement, readings on recovered memories and clinical pseudoscience, Gabraith et al.'s work on complementary and alternative medicine, Lewis and Wai on science communication in psychology, Gordon Pennycook's misinformation resources, and Bem's “Feeling the future” article as a case study in extraordinary claims and replication.
+Readings vary by semester and include textbook chapters, peer-reviewed articles, popular science essays, podcasts, videos, and science communication examples. Representative readings and Book Club options have included:
 
-The course also uses popular press books for Book Club, with options such as _The Misinformation Age_, _Abominable Science_, _The Demon-Haunted World_, _Trick or Treatment_, and other books that ask students to evaluate the scientific merit, rhetoric, evidence base, and public impact of popular science writing.
+- Barrett, L. F. (2015, October 31). Psychology is not in crisis. _The New York Times_.
+- Bem, D. J. (2011). Feeling the future: Experimental evidence for anomalous retroactive influences on cognition and affect. _Journal of Personality and Social Psychology, 100_(3), 407–425. https://doi.org/10.1037/a0021524
+- Fox, B., & Farrington, D. P. (2018). What have we learned from offender profiling? A systematic review and meta-analysis of 40 years of research. _Psychological Bulletin, 144_(12), 1247–1274. https://doi.org/10.1037/bul0000170
+- Lilienfeld, S. O. (2008). Science and pseudoscience in clinical psychology. _Guilford Press_.
+- Loxton, D., & Prothero, D. R. (2013). _Abominable science! Origins of the Yeti, Nessie, and other famous cryptids_. Columbia University Press.
+- O'Connor, C., & Weatherall, J. O. (2019). _The misinformation age: How false beliefs spread_. Yale University Press.
+- Sagan, C. (1995). _The demon-haunted world: Science as a candle in the dark_. Random House.
+- Singh, S., & Ernst, E. (2008). _Trick or treatment: The undeniable facts about alternative medicine_. W. W. Norton.
+- Synnott, J., Dietzel, D., & Ioannou, M. (2015). A review of the polygraph: History, methodology and current status. _Crime Psychology Review, 1_(1), 59–83. https://doi.org/10.1080/23744006.2015.1060080
 
 ## Teaching Approach
 
@@ -52,6 +60,4 @@ This course emphasizes curiosity, skepticism, and science communication. Student
 
 - **Book Club:** Students choose a popular press science or pop-science book, prepare reactions and discussion questions, and participate in discussion groups. These conversations ask students to summarize arguments, evaluate evidence, critique rhetoric, and consider how science reaches public audiences.
 
-- **Case-Based Skepticism:** Units are built around concrete examples such as forensic pseudoscience, complementary and alternative medicine, recovered memories, cryptids, UFOs, faith healing, and misinformation. Students practice asking: What is the claim? What evidence would support it? What evidence would challenge it? Who benefits if people believe it?
-
-- **Reflection and Metacognition:** Students reflect on their own beliefs, reasoning habits, and vulnerability to misinformation. The course treats skepticism as a practice rather than a personality trait: students learn to apply the same standards to familiar claims, personally appealing claims, and claims they already doubt.
+- **Case-Based Skepticism and Reflective Journaling:** Units are built around concrete examples such as forensic pseudoscience, complementary and alternative medicine, recovered memories, cryptids, UFOs, faith healing, and misinformation. Students keep a physical journal throughout the semester, using it to connect course topics to their own beliefs, reasoning habits, and development as critical thinkers.
