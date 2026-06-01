@@ -4,7 +4,7 @@ title: forensic psychology
 description: forensic practice, assessment, expert testimony, corrections, and public-serving psychological science
 category: electives
 importance: 2
-img: /assets/img/teaching/forensic-psychology.png
+img: /assets/img/forensic.jpg
 ---
 
 Forensic Psychology examines how psychological science informs legal, correctional, and forensic practice. The course focuses especially on the roles psychologists play in legal settings, including forensic assessment, expert testimony, correctional treatment, consultation, and research-to-practice translation.
