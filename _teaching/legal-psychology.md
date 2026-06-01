@@ -4,7 +4,7 @@ title: legal psychology
 description: applying psychological science to investigations, trials, and justice
 category: electives
 importance: 1
-img: /assets/img/teaching/legal-psychology.png
+img: /assets/img/legal.jpg
 ---
 
 Legal Psychology examines how psychological science can help us understand, evaluate, and improve the legal system. The course asks why people sometimes falsely confess, why eyewitnesses can make confident but mistaken identifications, how juries evaluate evidence, and how legal actors make decisions under uncertainty. Across the course, students apply social, cognitive, developmental, and quantitative psychology to real legal problems.
