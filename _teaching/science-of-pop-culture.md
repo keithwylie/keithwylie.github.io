@@ -4,6 +4,7 @@ title: Science of Pop Culture
 description: social scientific inquiry through drag, identity, representation, and popular culture
 category: core
 importance: 2
+img: /assets/img/pop-culture.jpg
 ---
 
 Science of Pop Culture is a Flagler Core Curriculum course that uses popular culture as a doorway into social scientific inquiry. In the version of the course I developed, students examine drag, including _RuPaul's Drag Race_, ballroom culture, drag performance, and LGBTQ+ media, as both a pop-cultural phenomenon and a social phenomenon.
