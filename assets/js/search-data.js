@@ -143,6 +143,11 @@ ninja.data = [{
           description: "upper-level seminar in human memory, theory, methods, and applications",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/memory/";
+            },},{id: "teaching-psychology-of-language",
+          title: 'psychology of language',
+          description: "upper-level seminar on psycholinguistics, sociolinguistics, and language in public life",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/psychology-of-language/";
             },},{id: "teaching-pseudoscience",
           title: 'pseudoscience',
           description: "critical thinking and scientific literacy in psychology",
