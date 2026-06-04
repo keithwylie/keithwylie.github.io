@@ -138,6 +138,11 @@ ninja.data = [{
           description: "applying psychological science to investigations, trials, and justice",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/legal-psychology/";
+            },},{id: "teaching-memory",
+          title: 'memory',
+          description: "upper-level seminar in human memory, theory, methods, and applications",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/memory/";
             },},{id: "teaching-pseudoscience",
           title: 'pseudoscience',
           description: "critical thinking and scientific literacy in psychology",
