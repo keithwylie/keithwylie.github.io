@@ -163,6 +163,11 @@ ninja.data = [{
           description: "evidence-based strategies for studying, remembering, and thinking",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/science-of-learning/";
+            },},{id: "teaching-social-psychology",
+          title: 'social psychology',
+          description: "how people think about, influence, and relate to one another",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/social-psychology/";
             },},{
         id: 'social-linkedin',
         title: 'LinkedIn',
