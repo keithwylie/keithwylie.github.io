@@ -128,6 +128,11 @@ ninja.data = [{
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/introduction-to-machine-learning/";
+            },},{id: "teaching-learning-and-memory",
+          title: 'learning and memory',
+          description: "behavioral, cognitive, and neural mechanisms of learning and memory",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/learning-and-memory/";
             },},{id: "teaching-legal-psychology",
           title: 'legal psychology',
           description: "applying psychological science to investigations, trials, and justice",
