@@ -2,7 +2,7 @@
 layout: page
 title: learning and memory
 description: behavioral, cognitive, and neural mechanisms of learning and memory
-category: electives
+category: foundations
 importance: 3
 img: /assets/img/learning.jpg
 ---
