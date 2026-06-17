@@ -1,189 +1,260 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Keith Wylie
+  label: Assistant Professor of Psychology
+  email: kwylie@flagler.edu
+  location: Flagler College, St. Augustine, FL
+  image: "keith-480.webp"
+  summary: "Legal and forensic psychologist studying how memory, language, and bias shape justice—eyewitness identification, juror decision-making, deception detection, and interviewing across languages. First-generation scholar who builds undergraduate research and justice-oriented, experiential courses."
 
   social_networks:
     - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
+      username: bkwylie_
     - network: LinkedIn
-      username: example
+      username: INSERT-LINKEDIN-HANDLE
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
+    street: 74 King Street
+    city: Saint Augustine
+    region: Florida
+    postalCode: 32084
     countryCode: US
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Florida International University
+        location: Miami, FL
+        area: Legal Psychology
+        studyType: Ph.D.
+        start_date: ""
+        end_date: 2019
         highlights:
-          - Description 1.
-          - Description 2.
+          - Minors in Cognitive Psychology and Quantitative Psychology
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Florida International University
+        location: Miami, FL
+        area: Psychology
+        studyType: M.S.
+        start_date: ""
+        end_date: 2017
+
+      - institution: University of Central Florida
+        location: Orlando, FL
+        area: Psychology
+        studyType: B.S.
+        start_date: ""
+        end_date: 2014
         highlights:
-          - Description 1.
-          - Description 2.
+          - Minors in Crime, Law, & Deviance and Business
+          - Certificate in Behavioral Forensics
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Flagler College
+        position: Assistant Professor of Psychology
+        location: St. Augustine, FL
+        start_date: 2024
+        end_date: Present
         highlights:
-          - Relativity
-          - Description 2.
+          - Teach forensic psychology, research methods, learning and memory, psychology of language, and pseudoscience.
+          - Mentor undergraduate researchers from design through national conference presentation (APLS, SEPA).
+          - Serve on Faculty Senate; led a FlagSHIP study abroad program in Korea for 18 students.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Emporia State University
+        position: Assistant Professor of Psychology
+        location: Emporia, KS
+        start_date: 2019
+        end_date: 2024
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Directed the Experimental Psychology M.S. program and coordinated the undergraduate psychology program.
+          - Taught across the curriculum, from honors introductory psychology to graduate statistics and forensic psychology.
+          - Advised M.S. theses and built open educational resources for statistics.
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: Saints Go Global Faculty Fellow
+        date: 2025
+        awarder: Flagler College
+        summary: "$1,000 plus program costs to design and lead the Korean Wave study abroad program; funded as FlagSHIP faculty mentee."
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: Class Resource Affordability Initiative Grant
+        date: 2020
+        awarder: Emporia State University
+        summary: "$3,000 to compile and create open educational resources for statistics."
+
+      - title: Grant-in-Aid
+        date: 2018
+        awarder: American Psychology–Law Society
+        summary: "$966 for research on cognitive interview mnemonics with non-native English speakers."
+
+      - title: Seed Fund
+        date: 2018
+        awarder: FIU Department of Psychology
+        summary: "$1,000 for research on cognitive interview mnemonics with non-native English speakers."
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Videos versus text spoilers and college students' enjoyment of narratives"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Ryan, C. K.
+          - Brown, S.
+          - Wylie, K.
+        publisher: Journal of Psychological Inquiry
+        releaseDate: 2025
+        url: https://doi.org/10.17605/OSF.IO/NY3PE
+        summary: "Whether video versus text spoilers change how much college students enjoy a narrative."
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "The effects of a single-session pictorial collage on self-reported anxiety in adults diagnosed with a traumatic brain injury"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Bennett, B.
+          - Corn, C.
+          - Wolf Bordonaro, G.
+          - Wylie, K.
+        publisher: The Arts in Psychotherapy
+        releaseDate: 2025
+        url: https://doi.org/10.1016/j.aip.2025.102256
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "On the trajectory of discrimination: A meta-analysis and forecasting survey capturing 44 years of field experiments on gender and hiring decisions"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Schaerer, M.
+          - du Plessis, C.
+          - "et al. (Gender Audits Forecasting Collaboration, incl. K. Wylie)"
+          - Uhlmann, E. L.
+        publisher: Organizational Behavior and Human Decision Processes
+        releaseDate: 2023
+        url: http://dx.doi.org/10.1016/j.obhdp.2023.104280
+
+      - title: "Investigating the utility of cognitive interview mnemonics among non-native English speakers"
+        authors:
+          - Wylie, K.
+          - Evans, J. R.
+        publisher: Psychology of Language and Communication
+        releaseDate: 2023
+        url: https://doi.org/10.58734/plc-2023-0012
+        summary: "Do cognitive-interview mnemonics help when witnesses are interviewed in a second language?"
+
+      - title: "The effects of face masks on emotional appraisal ability of children with autism"
+        authors:
+          - Tate, E. K.
+          - Wylie, K.
+          - Moss, J. D.
+        publisher: International Journal of Developmental Disabilities
+        releaseDate: 2023
+        url: https://doi.org/10.1080/20473869.2023.2189765
+
+      - title: "Observers' accuracy in detecting deception in non-native speakers versus native speakers: A systematic review"
+        authors:
+          - Wylie, K.
+          - Pena, M. M.
+          - Miller, K. B.
+          - Palmer, M. E.
+          - Tate, E. K.
+        publisher: Journal of Investigative Psychology and Offender Profiling
+        releaseDate: 2022
+        url: https://doi.org/10.1002/jip.1595
+        summary: "Systematic review of whether observers detect deception as well in non-native as in native speakers."
+
+      - title: "A global experiment on motivating social distancing during the COVID-19 pandemic"
+        authors:
+          - "Psychological Science Accelerator Self-Determination Theory Collaboration (incl. K. Wylie)"
+        publisher: Proceedings of the National Academy of Sciences
+        releaseDate: 2022
+        url: https://doi.org/10.1073/pnas.2111091119
+
+      - title: "Pre-identification confidence is related to eyewitness lineup accuracy across witnesses with heterogeneous encoding conditions"
+        authors:
+          - Molinaro, P. F.
+          - Charman, S. D.
+          - Wylie, K.
+        publisher: Law and Human Behavior
+        releaseDate: 2021
+        url: https://doi.org/10.1037/lhb0000452
+        summary: "Pre-identification confidence predicts eyewitness accuracy even across varied encoding conditions."
+
+      - title: "Registered replication report on Srull and Wyer (1979)"
+        authors:
+          - McCarthy, R.
+          - Skowronski, J.
+          - "et al. (incl. K. Wylie)"
+        publisher: Advances in Methods and Practices in Psychological Science
+        releaseDate: 2018
+        url: https://doi.org/10.1177/2515245918777487
+
+      - title: "Registered replication report on Mazar, Amir, and Ariely (2008)"
+        authors:
+          - Verschuere, B.
+          - Meijer, E. H.
+          - "et al. (incl. K. Wylie)"
+        publisher: Advances in Methods and Practices in Psychological Science
+        releaseDate: 2018
+        url: https://doi.org/10.1177/2515245918781032
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Research Methods
+        icon: fa-solid fa-flask
+        keywords: "Experimental design, meta-analysis & systematic review, preregistration & open science, survey methods"
+
+      - name: Analysis & Tools
+        icon: fa-solid fa-chart-simple
+        keywords: "jamovi, SPSS, R, Qualtrics, OSF"
+
+      - name: Teaching Areas
+        icon: fa-solid fa-book
+        keywords: "Forensic psychology, research methods, learning & memory, psychology of language, pseudoscience"
 
     Languages:
-      - name: German
-        summary: "Native speaker"
-
       - name: English
-        summary: "Fluent"
+        summary: "Native"
+
+      - name: Spanish
+        summary: "Learning"
 
     Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Research
+        icon: fa-solid fa-magnifying-glass
+        keywords: "Eyewitness memory, juror decision-making, deception detection, investigative interviewing, misinformation, second-language interviewing"
+
+      - name: Teaching & Practice
+        icon: fa-solid fa-chalkboard-user
+        keywords: "Open science, undergraduate research mentorship, high-impact practices, study abroad, justice-oriented community work"
 
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - name: University Teaching and Learning Advanced Certificate
+        date: 2018
+        issuer: FIU Center for Advancement of Teaching
+        icon: fa-solid fa-award
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - name: University Teaching and Learning Certificate
+        date: 2017
+        issuer: FIU Center for Advancement of Teaching
+        icon: fa-solid fa-award
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: Designing Your Online Course (DYOC)
+        date: 2025
+        issuer: Quality Matters
+        icon: fa-solid fa-laptop
+
+      - name: DEI Awareness Professional Certificate
+        date: 2024
+        issuer: LinkedIn Learning
+        icon: fa-solid fa-users
+
+      - name: Certificate in Behavioral Forensics
+        date: 2014
+        issuer: University of Central Florida
+        icon: fa-solid fa-scale-balanced
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Patients Not Prisoners × Measure — Participatory Action Research
+        summary: "Community-based research on how AI shapes families navigating the justice and mental-health systems."
+        start_date: 2025
+        end_date: Present
+
+      - name: Eyewitness Identification Science Interactive Toolkit
+        summary: "Advisory committee, Center for Integrity in Forensic Sciences—translating eyewitness research for practitioners."
+        start_date: 2025
+        end_date: Present
+
+      - name: Korean Wave Study Abroad (FlagSHIP)
+        summary: "Designed and led a Maymester program using hallyu as a lens on Korean culture for 18 students."
+        start_date: 2025
+        end_date: 2026
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+          - Saints Go Global Faculty Fellow
+          - Experiential, place-based curriculum
