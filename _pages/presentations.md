@@ -9,6 +9,7 @@ hide_publication_thumbnails: true
 ---
 
 <div class="publications presentation-list">
+  <p class="advisee-note">Highlighted names indicate student advisees at the time of the research.</p>
 {% bibliography
    --file presentations
    --group_by year
