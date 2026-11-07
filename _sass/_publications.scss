@@ -186,6 +186,9 @@
 
       .links {
         a.btn {
+          // Bibliography action labels should remain compact sans-serif controls.
+          font-family: "Roboto", Arial, sans-serif;
+          font-size: 0.875rem;
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
           padding-left: 1rem;
