@@ -9,11 +9,11 @@ img: /assets/img/pseudoscience.jpg
 
 Psychology of Pseudoscience asks why people believe claims that have little scientific support and how we can evaluate those claims fairly. Students investigate extraordinary stories and familiar misconceptions using research on perception, memory, reasoning, social influence, and scientific methods.
 
-## What students study
+## What Students Study
 
 Case studies have included paranormal experiences, alien abduction, cryptids, ghosts, Ouija boards, conspiracy theories, misinformation, dubious health claims, and forensic pseudoscience. We also examine how scientific findings become distorted in popular coverage and how people respond to corrections.
 
-## What students do
+## What Students Do
 
 - **Test explanations:** Demonstrations invite students to compare extraordinary claims with psychological explanations, such as ideomotor action or memory distortion.
 - **Keep a skeptic's notebook:** Students practice examining sources, specifying claims, and identifying what evidence would change their conclusions.

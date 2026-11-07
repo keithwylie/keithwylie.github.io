@@ -11,11 +11,11 @@ Memory is an advanced undergraduate and graduate seminar built around primary re
 
 This seminar places more emphasis on theory, empirical critique, and independent inquiry than the broader Learning and Memory course.
 
-## What students study
+## What Students Study
 
 Topics have included working and semantic memory; retrieval and levels of processing; autobiographical, prospective, and flashbulb memory; metamemory; development and aging; memory disorders; trauma; and false memories. We also examine applied questions in education, clinical practice, and legal settings.
 
-## What students do
+## What Students Do
 
 - **Lead discussions:** Students introduce empirical articles, develop questions, and help classmates examine the evidence.
 - **Compare explanations:** Short writing assignments ask students to connect findings across studies and evaluate alternative interpretations.

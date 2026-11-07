@@ -11,7 +11,7 @@ Science of Learning introduces students to social scientific inquiry through que
 
 This Flagler Core Social Scientific Inquiry course emphasizes transformative learning: students use research to reconsider how they approach their own coursework.
 
-## How the course works
+## How the Course Works
 
 In the face-to-face version, most weeks follow a recurring structure:
 
@@ -27,7 +27,7 @@ Research Friday is a sequence of short, recurring assignments developed in colla
 
 Activities have included examining research on retrieval practice and note-taking, locating studies of spacing and interleaving in applied settings, and evaluating claims about learning styles, growth mindset, and the Dunning–Kruger effect.
 
-## Signature assignment
+## Signature Assignment
 
 Students develop an evidence-based study plan, try strategies over time, and reflect on what they would keep or revise.
 

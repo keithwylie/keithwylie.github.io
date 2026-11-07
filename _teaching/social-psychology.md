@@ -9,11 +9,11 @@ img: /assets/img/social.jpg
 
 Social Psychology examines how other people and social situations shape what we think, feel, and do. We study the self, social cognition, attitudes, influence, groups, prejudice, helping, aggression, and relationships, including how these processes appear in everyday life and institutions.
 
-## What students study
+## What Students Study
 
 Students connect social psychological theories with empirical findings and evaluate situations involving judgment, persuasion, conformity, discrimination, and prosocial behavior.
 
-## What students do
+## What Students Do
 
 - **Analyze the social self:** Activities have included a self-concept collage tied to theories of social identity and comparison.
 - **Design persuasion campaigns:** Students use research on attitudes and influence to develop messages for specific audiences.

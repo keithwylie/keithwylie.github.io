@@ -9,11 +9,11 @@ img: /assets/img/legal.jpg
 
 Legal Psychology follows the legal process from investigation through trial and punishment. Students examine what psychological research tells us about witnesses, suspects, investigators, juries, and the institutions that make legal decisions. We pay particular attention to cases in which ordinary cognitive or social processes contribute to serious errors.
 
-## What students study
+## What Students Study
 
 Topics include wrongful convictions, eyewitness identification, investigative interviewing, interrogations and confessions, lie detection, forensic evidence, plea bargaining, jury selection and deliberation, sentencing, and corrections. We use empirical research to evaluate legal procedures and proposed reforms.
 
-## What students do
+## What Students Do
 
 - **Analyze interrogations:** Students examine questioning strategies and consider how youth, vulnerability, and social pressure may contribute to unreliable confessions.
 - **Conduct mock voir dire:** Acting as jury consultants, students evaluate prospective jurors, develop questions, and consider challenges and potential discrimination.
