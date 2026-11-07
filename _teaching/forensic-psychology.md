@@ -11,11 +11,11 @@ Forensic Psychology focuses on the work psychologists do in courts, correctional
 
 The course has used a modular structure: everyone completes a shared foundation, and students then choose additional areas that match their interests.
 
-## What students study
+## What Students Study
 
 The shared foundation covers professional roles and ethics, expert testimony, admissibility, wrongful convictions, and cognitive bias. Elective topics have included competence to stand trial, forensic assessment tools, competency restoration, personality assessment, correctional psychology, rehabilitation, policing, and victimology.
 
-## What students do
+## What Students Do
 
 - **Evaluate assessments:** Students compare tools and consider whether the evidence supports their use in a particular legal context.
 - **Work through ethical dilemmas:** Cases raise questions about confidentiality, professional boundaries, dual roles, and limits of expert testimony.

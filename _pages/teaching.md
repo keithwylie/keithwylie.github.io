@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: Courses and original teaching activities
 nav: true
 nav_order: 2
@@ -17,7 +17,7 @@ I'm gradually adding teaching materials, including interactive labs, research ex
 {% if site.enable_project_categories and page.display_categories %}
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{% case category %}{% when "electives" %}Legal and applied psychology{% when "foundations" %}Psychology and research foundations{% when "core" %}Flagler Core: Social Scientific Inquiry{% else %}{{ category }}{% endcase %}</h2>
+    <h2 class="category">{% case category %}{% when "electives" %}Legal and Applied Psychology{% when "foundations" %}Psychology and Research Foundations{% when "core" %}Flagler Core: Social Scientific Inquiry{% else %}{{ category }}{% endcase %}</h2>
   </a>
   {% assign categorized_projects = site.teaching | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}

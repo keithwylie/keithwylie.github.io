@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /presentations/
-title: presentations
+title: Presentations
 description: conference papers, posters, and invited talks
 nav: true
 nav_order: 4
@@ -11,8 +11,8 @@ nav_order: 4
 
 <div class="publications presentation-list">
   <div class="presentation-filter mb-4">
-    <button id="show-all-presentations" class="btn btn-sm z-depth-0 active" type="button">Show all</button>
-    <button id="show-apls-presentations" class="btn btn-sm z-depth-0" type="button">Show only APLS</button>
+    <button id="show-all-presentations" class="btn btn-sm z-depth-0 active" type="button">Show All</button>
+    <button id="show-apls-presentations" class="btn btn-sm z-depth-0" type="button">Show Only AP-LS</button>
   </div>
 
 {% bibliography

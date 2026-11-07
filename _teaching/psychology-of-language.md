@@ -9,11 +9,11 @@ img: /assets/img/language.jpg
 
 Psychology of Language is an upper-level seminar about how people understand and produce language and how language acquires social meaning. We move between psycholinguistics, cognitive psychology, sociolinguistics, and the ways people use language in everyday life.
 
-## What students study
+## What Students Study
 
 Topics range from speech perception, reading, language acquisition, bilingualism, and the brain to accents, dialects, language change, linguistic discrimination, and language policy. We also examine language in law and technology, where small wording choices can have substantial consequences.
 
-## What students do
+## What Students Do
 
 - **Discuss original research:** Students annotate empirical articles, lead conversations, and evaluate what findings do and do not show.
 - **Analyze language in context:** We use examples from public policy, legal opinions, media, and everyday conversation to connect research with lived language.

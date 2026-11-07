@@ -1,19 +1,19 @@
 {% assign teaching_slug = page.path | split: '/' | last | remove: '.md' %}
 {% assign material_set = site.data.teaching_materials[teaching_slug] %}
 {% if material_set and material_set.items and material_set.items.size > 0 %}
-  {% unless page.url contains 'learning-and-memory' %}
-    <h2>Teaching materials and resources</h2>
-  {% endunless %}
-  {% if material_set.note %}
-    <p>{{ material_set.note }}</p>
-  {% endif %}
-  <ul class="teaching-materials-list">
-    {% for material in material_set.items %}
-      <li>
-        <a href="{{ material.url }}" target="_blank" rel="noopener noreferrer">{{ material.title }}</a>
-        {% if material.type %}<span class="text-muted">({{ material.type }})</span>{% endif %}
-        {% if material.description %}<p>{{ material.description }}</p>{% endif %}
-      </li>
-    {% endfor %}
-  </ul>
+{% unless page.url contains 'learning-and-memory' %}
+<h2>Teaching Materials and Resources</h2>
+{% endunless %}
+{% if material_set.note %}
+<p>{{ material_set.note | escape }}</p>
+{% endif %}
+<ul class="teaching-materials-list">
+{% for material in material_set.items %}
+<li>
+<a href="{{ material.url | escape }}" target="_blank" rel="noopener noreferrer">{{ material.title | escape }}</a>
+{% if material.type %}<span class="text-muted">({{ material.type | escape }})</span>{% endif %}
+{% if material.description %}<p>{{ material.description | escape }}</p>{% endif %}
+</li>
+{% endfor %}
+</ul>
 {% endif %}
