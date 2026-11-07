@@ -5,16 +5,10 @@ title: Presentations
 description: conference papers, posters, and invited talks
 nav: true
 nav_order: 4
+hide_publication_thumbnails: true
 ---
 
-{% include bib_search.liquid %}
-
 <div class="publications presentation-list">
-  <div class="presentation-filter mb-4">
-    <button id="show-all-presentations" class="btn btn-sm z-depth-0 active" type="button">Show All</button>
-    <button id="show-apls-presentations" class="btn btn-sm z-depth-0" type="button">Show Only AP-LS</button>
-  </div>
-
 {% bibliography
    --file presentations
    --group_by year
