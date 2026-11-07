@@ -10,7 +10,7 @@ cv:
     - network: X
       username: bkwylie_
     - network: LinkedIn
-      username: INSERT-LINKEDIN-HANDLE
+      username: bkwylie
 
   address:
     street: 74 King Street

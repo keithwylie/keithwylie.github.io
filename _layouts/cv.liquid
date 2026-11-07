@@ -17,7 +17,17 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">
       {{ page.title }}
+      {% comment %}Only show the download link if the PDF is present in the built site.{% endcomment %}
+      {% assign cv_pdf_exists = false %}
       {% if page.cv_pdf %}
+        {% for pdf_asset in site.static_files %}
+          {% if pdf_asset.path == page.cv_pdf %}
+            {% assign cv_pdf_exists = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      {% if cv_pdf_exists %}
         <a
           {% if page.cv_pdf contains '://' %}
             href="{{ page.cv_pdf }}"
