@@ -162,3 +162,39 @@ blockquote {
     }
   }
 }
+
+
+/*******************************************************************************
+ * A more balanced type scale for Equity A.
+ *
+ * Font sizes are given in rem (root 16px): article copy = 18px (13.5pt),
+ * H1 = 32px (24pt), H2 = 24px (18pt), H3 = 20px (15pt).
+ * Keep the navigation and other compact controls at their existing sizes.
+ ******************************************************************************/
+
+.post {
+  > .post-header .post-title {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  > article {
+    font-size: 1.125rem;
+    line-height: 1.65;
+
+    h2 {
+      font-size: 1.5rem;
+      line-height: 1.3;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      line-height: 1.35;
+    }
+
+    h4 {
+      font-size: 1.125rem;
+      line-height: 1.4;
+    }
+  }
+}
