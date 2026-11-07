@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-teaching",
           title: "teaching",
-          description: "",
+          description: "Courses and original teaching activities",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -31,56 +31,63 @@ ninja.data = [{
             window.location.href = "/presentations/";
           },
         },{id: "teaching-forensic-psychology",
-          title: 'forensic psychology',
-          description: "forensic practice, assessment, expert testimony, corrections, and public-serving psychological science",
+          title: 'Forensic Psychology',
+          description: "Assessment, professional practice, and psychology in legal settings",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/forensic-psychology/";
             },},{id: "teaching-learning-and-memory",
-          title: 'learning and memory',
-          description: "behavioral, cognitive, and neural mechanisms of learning and memory",
+          title: 'Learning and Memory',
+          description: "Learning processes, memory systems, and hands-on demonstrations",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/learning-and-memory/";
             },},{id: "teaching-legal-psychology",
-          title: 'legal psychology',
-          description: "applying psychological science to investigations, trials, and justice",
+          title: 'Legal Psychology',
+          description: "Psychological science in investigations, trials, and legal decisions",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/legal-psychology/";
             },},{id: "teaching-memory",
-          title: 'memory',
-          description: "upper-level seminar in human memory, theory, methods, and applications",
+          title: 'Memory',
+          description: "An advanced seminar in human memory and its applications",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/memory/";
             },},{id: "teaching-psychology-of-language",
-          title: 'psychology of language',
-          description: "upper-level seminar on psycholinguistics, sociolinguistics, and language in public life",
+          title: 'Psychology of Language',
+          description: "Language processing, social meaning, and communication in public life",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/psychology-of-language/";
-            },},{id: "teaching-pseudoscience",
-          title: 'pseudoscience',
-          description: "critical thinking and scientific literacy in psychology",
+            },},{id: "teaching-psychology-of-pseudoscience",
+          title: 'Psychology of Pseudoscience',
+          description: "Why questionable claims persuade us and how to evaluate evidence",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/psychology-of-pseudoscience/";
             },},{id: "teaching-research-methods",
-          title: 'research methods',
-          description: "how psychologists ask questions and build evidence",
+          title: 'Research Methods',
+          description: "Designing studies, analyzing data, and communicating evidence",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/research-methods/";
             },},{id: "teaching-science-of-learning",
-          title: 'science of learning',
-          description: "evidence-based strategies for studying, remembering, and thinking",
+          title: 'Science of Learning',
+          description: "A Flagler Core course on learning, evidence, and research literacy",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/science-of-learning/";
             },},{id: "teaching-science-of-pop-culture",
           title: 'Science of Pop Culture',
-          description: "social scientific inquiry through drag, identity, representation, and popular culture",
+          description: "A Flagler Core course on drag, identity, and social scientific inquiry",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/science-of-pop-culture/";
             },},{id: "teaching-social-psychology",
-          title: 'social psychology',
-          description: "how people think about, influence, and relate to one another",
+          title: 'Social Psychology',
+          description: "How people think, influence each other, and act in social settings",
           section: "Teaching",handler: () => {
               window.location.href = "/teaching/social-psychology/";
             },},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%6B%77%79%6C%69%65@%66%6C%61%67%6C%65%72.%65%64%75", "_blank");
+        },
+      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
