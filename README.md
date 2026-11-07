@@ -17,6 +17,16 @@ The site is built with [Jekyll](https://jekyllrb.com/) using the [al-folio](http
 
 Changes to the `main` branch trigger the `Deploy site` GitHub Actions workflow, which builds the Jekyll site and publishes the generated files to `gh-pages`. The deploy action is configured to remove old published pages that no longer exist in the source.
 
+## Teaching materials
+
+Teaching pages in `_teaching/` use `_includes/teaching_materials.liquid`. Add or revise links in `_data/teaching_materials.yml`, using a key that matches the course filename. The section is hidden until a course has listed materials.
+
+The [Learning and Memory labs](https://github.com/keithwylie/learning) are linked as a working collection. Individual labs can be added to the list as they gain consistent instructions and instructor documentation.
+
+## Site images
+
+The deployment build runs `bin/optimize_site_images.py` before Jekyll generates responsive WebP images. It compresses large JPEGs used on the homepage and in teaching cards in the deployment checkout, while keeping the original source images unchanged in Git.
+
 ## CV PDF
 
 The online CV is generated from `_data/cv.yml`. The separate `Render a CV` workflow creates the downloadable PDF after changes to the CV or its RenderCV settings are merged to `main`. The website only shows a PDF download icon when the matching PDF exists in the build; the HTML CV remains available otherwise.
