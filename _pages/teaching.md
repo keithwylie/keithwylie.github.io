@@ -16,9 +16,7 @@ I'm gradually adding teaching materials, including interactive labs, research ex
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{% case category %}{% when "electives" %}Legal and Applied Psychology{% when "foundations" %}Psychology and Research Foundations{% when "core" %}Flagler Core: Social Scientific Inquiry{% else %}{{ category }}{% endcase %}</h2>
-  </a>
+  <h2 id="{{ category }}" class="category">{% case category %}{% when "electives" %}Legal and Applied Psychology{% when "foundations" %}Psychology and Research Foundations{% when "core" %}Flagler Core: Social Scientific Inquiry{% else %}{{ category }}{% endcase %}</h2>
   {% assign categorized_projects = site.teaching | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   {% if page.horizontal %}

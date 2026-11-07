@@ -120,8 +120,8 @@
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
-              <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span>
+              <button id="search-toggle" title="Search" aria-label="Search site" onclick="openSearchModal()">
+                <span class="nav-link">{% if page.permalink == '/' %}ctrl k {% endif %}<i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i></span>
               </button>
             </li>
           {% endif %}
@@ -139,7 +139,7 @@
       </div>
     </div>
   </nav>
-  {% if site.enable_progressbar %}
+  {% if site.enable_progressbar and page.permalink == '/' %}
     <!-- Scrolling Progress Bar -->
     <progress id="progress" value="0">
       <div class="progress-container">
