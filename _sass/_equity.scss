@@ -1,0 +1,55 @@
+/*******************************************************************************
+ * Equity A (MB Type): licensed website typography.
+ *
+ * WOFF2 files are hosted separately to keep the licensed binaries out of the
+ * public GitHub source repository and the generated gh-pages branch.
+ *
+ * If Cloudflare serves the font files from the root instead of /equity/,
+ * remove /equity/ from each URL below. Verify each response is HTTP 200
+ * with Access-Control-Allow-Origin allowing this site.
+ ******************************************************************************/
+
+@font-face {
+  font-family: "Equity A";
+  src: url("https://kwylie-fonts.keithwyliephd.workers.dev/equity/equity_a_regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Equity A";
+  src: url("https://kwylie-fonts.keithwyliephd.workers.dev/equity/equity_a_italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Equity A";
+  src: url("https://kwylie-fonts.keithwyliephd.workers.dev/equity/equity_a_bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Equity A";
+  src: url("https://kwylie-fonts.keithwyliephd.workers.dev/equity/equity_a_bold_italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
+// Serif text throughout the site; the font icon libraries keep their own faces.
+body,
+.navbar,
+.navbar-brand,
+.nav-link,
+.btn,
+button,
+input,
+textarea,
+select {
+  font-family: "Equity A", Georgia, "Times New Roman", serif;
+}
