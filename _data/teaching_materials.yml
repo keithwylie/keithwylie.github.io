@@ -1,0 +1,27 @@
+# Add materials here after reviewing links and student instructions.
+# Keys match the filenames in _teaching/, without .md.
+# Sections only appear when there are items to share.
+
+learning-and-memory:
+  note: "These are working versions. I am revising them to provide consistent student instructions, instructor notes, and supporting materials."
+  items:
+    - title: "Interactive Learning and Memory labs (working collection)"
+      url: "https://github.com/keithwylie/learning"
+      type: "Original teaching materials"
+      description: "Browser-based activities on conditioning, generalization, skill learning, memory phenomena, and related topics. Individual labs will be linked after standardization."
+
+research-methods:
+  note: "Open tools and instructional resources I use in research methods courses."
+  items:
+    - title: "jamovi"
+      url: "https://www.jamovi.org/"
+      type: "Statistical software"
+      description: "Free software for statistical analyses and visualization."
+    - title: "Learning Statistics with jamovi"
+      url: "https://learningstatisticswithjamovi.com/"
+      type: "Open textbook"
+      description: "A freely available introduction to statistical reasoning and analysis."
+    - title: "Open Stats Lab"
+      url: "https://sites.trinity.edu/osl"
+      type: "Open educational resource"
+      description: "Applied statistics labs and accompanying activities."

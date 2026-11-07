@@ -2,25 +2,22 @@
 layout: page
 permalink: /teaching/
 title: teaching
-# description: Courses I teach and have taught.
+description: Courses and original teaching activities
 nav: true
 nav_order: 2
 horizontal: false
-# Set this only if you actually want categories (see notes below)
 display_categories: [electives, foundations, core]
 ---
 
-I've taught across the curriculum, from upper-level electives in legal and forensic topics to foundational courses for the psychology major to first-year social scientific inquiry courses in Flagler's Core curriculum.
+I teach courses across the psychology major and Flagler's Core curriculum. These pages describe what students study, how we work with research, and some of the assignments and activities I've developed.
 
-Below are brief snapshots of several courses in my regular rotation, including sample objectives, resources, and learning activities.
-
-If you'd like more information about a specific course or potential collaboration, please feel free to contact me.
+I'm gradually adding teaching materials, including interactive labs, research exercises, and open educational resources. Some are ready to share; others are still being revised for use outside my classroom.
 
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
+    <h2 class="category">{% case category %}{% when "electives" %}Legal and applied psychology{% when "foundations" %}Psychology and research foundations{% when "core" %}Flagler Core: Social Scientific Inquiry{% else %}{{ category }}{% endcase %}</h2>
   </a>
   {% assign categorized_projects = site.teaching | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
