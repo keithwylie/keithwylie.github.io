@@ -95,6 +95,7 @@ jobs:
           python3 bin/optimize_site_images.py
           export JEKYLL_ENV=production
           bundle exec jekyll build
+          python3 bin/check_bibliography_layout.py
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss

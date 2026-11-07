@@ -8,9 +8,20 @@ layout: default
   </style>
 {% endif %}
 
-<div class="post">
-  <header class="post-header">
+<div class="post{% if page.hide_publication_thumbnails %} bibliography-page{% endif %}">
+  <header class="post-header{% if page.hide_publication_thumbnails %} bibliography-page-header{% endif %}">
     <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.hide_publication_thumbnails %}
+      <div class="bibliography-header-tools">
+        {% if page.permalink == '/presentations/' %}
+          <div class="presentation-filter" role="group" aria-label="Filter presentations">
+            <button id="show-all-presentations" class="btn btn-sm z-depth-0 active" type="button">All</button>
+            <button id="show-apls-presentations" class="btn btn-sm z-depth-0" type="button">AP-LS Only</button>
+          </div>
+        {% endif %}
+        {% include bib_search.liquid %}
+      </div>
+    {% endif %}
   </header>
 
   <article>

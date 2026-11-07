@@ -5,9 +5,8 @@ title: Publications
 description: publications in peer-reviewed journals
 nav: true
 nav_order: 3
+hide_publication_thumbnails: true
 ---
-
-{% include bib_search.liquid %}
 
 <div class="publications">
 
