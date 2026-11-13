@@ -90,11 +90,21 @@ jobs:
           value: ${{ github.repository }}
       - name: Install and Build 🔧
         run: |
-          sudo apt-get update && sudo apt-get install -y imagemagick
+          sudo apt-get update && sudo apt-get install -y imagemagick libreoffice-writer
           pip3 install --upgrade nbconvert pillow
           python3 bin/optimize_site_images.py
+          # Generate browser-viewable PDFs from the editable Research Friday worksheets.
+          # Every deployment regenerates them, so Word and PDF stay in sync.
+          libreoffice -env:UserInstallation=file:///tmp/lo-science-of-learning-ci --headless \
+            --convert-to pdf:writer_pdf_Export --outdir assets/pdf assets/pdf/[0-9][0-9]Research*.docx
+          for docx in assets/pdf/[0-9][0-9]Research*.docx; do
+            test -s "${docx%.docx}.pdf" || { echo "Missing PDF for $docx"; exit 1; }
+          done
           export JEKYLL_ENV=production
           bundle exec jekyll build
+          for docx in assets/pdf/[0-9][0-9]Research*.docx; do
+            test -s "_site/${docx%.docx}.pdf" || { echo "Missing published PDF for $docx"; exit 1; }
+          done
           python3 bin/check_bibliography_layout.py
       - name: Purge unused CSS 🧹
         run: |

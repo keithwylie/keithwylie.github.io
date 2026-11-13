@@ -1,6 +1,23 @@
 {% assign teaching_slug = page.path | split: '/' | last | remove: '.md' %}
 {% assign material_set = site.data.teaching_materials[teaching_slug] %}
 {% if material_set and material_set.items and material_set.items.size > 0 %}
+{% if material_set.layout == 'downloads' %}
+<ul class="teaching-materials-downloads">
+  {% for material in material_set.items %}
+  <li class="teaching-resource">
+    <div class="teaching-resource-details">
+      <h4 class="teaching-resource-title">{{ material.title | escape }}</h4>
+      {% if material.version %}<p class="teaching-resource-version">{{ material.version | escape }}</p>{% endif %}
+      {% if material.description %}<p class="teaching-resource-description">{{ material.description | escape }}</p>{% endif %}
+    </div>
+    <div class="teaching-resource-actions" aria-label="Download options for {{ material.title | escape }}{% if material.version %}, {{ material.version | escape }}{% endif %}">
+      <a href="{{ material.pdf | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open PDF: {{ material.title | escape }}{% if material.version %}, {{ material.version | escape }}{% endif %}">PDF</a>
+      <a href="{{ material.word | relative_url }}" download aria-label="Download Word: {{ material.title | escape }}{% if material.version %}, {{ material.version | escape }}{% endif %}">Word</a>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
 {% unless page.url contains 'learning-and-memory' %}
 <h2>{{ material_set.heading | default: 'Teaching Materials and Resources' | escape }}</h2>
 {% endunless %}
@@ -16,4 +33,5 @@
 </li>
 {% endfor %}
 </ul>
+{% endif %}
 {% endif %}
