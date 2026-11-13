@@ -4,6 +4,20 @@
 
 @use "variables" as v;
 
+// Roboto is already loaded through the site's Google Fonts stylesheet.
+// Keep a consistent sans-serif face for copy, navigation, and controls.
+body,
+.navbar,
+.navbar-brand,
+.nav-link,
+.btn,
+button,
+input,
+textarea,
+select {
+  font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+
 body {
   font-weight: 400;
 }
@@ -165,7 +179,7 @@ blockquote {
 
 
 /*******************************************************************************
- * A more balanced type scale for Equity A.
+ * Consistent, readable site type scale.
  *
  * Font sizes are given in rem (root 16px): article copy = 18px (13.5pt),
  * H1 = 32px (24pt), H2 = 24px (18pt), H3 = 20px (15pt).

@@ -9,16 +9,6 @@
   content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"
 >
 
-<!-- Request the licensed Equity A regular font early to minimize fallback-font swapping. -->
-<link rel="preconnect" href="https://kwylie-fonts.keithwyliephd.workers.dev" crossorigin>
-<link
-  rel="preload"
-  href="https://kwylie-fonts.keithwyliephd.workers.dev/equity/equity_a_regular.woff2"
-  as="font"
-  type="font/woff2"
-  crossorigin
->
-
 <!-- Bootstrap & MDB -->
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
 <link
