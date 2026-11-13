@@ -11,41 +11,42 @@ learning-and-memory:
       description: "Browser-based activities on conditioning, generalization, skill learning, memory phenomena, and related topics. Individual labs will be linked after standardization."
 
 science-of-learning:
-  heading: "Downloadable Research Friday Assignments"
-  note: "These editable Word worksheets correspond to different points in the semester; I'm sharing a selection, so some numbers are missing. You're welcome to use or adapt them. The two note-taking versions illustrate a revision: the Research Brief was a more demanding first draft, while the revised Research Friday worksheet provided more guided practice when I taught the course for a second semester and saw that students needed additional practice at that stage."
+  layout: downloads
   items:
-    - title: "02 — Do Students Practice Retrieval? (Karpicke et al.)"
-      url: "/assets/pdf/02ResearchFridayKarpicke.docx"
-      download: true
-      description: "Read an empirical article section by section and connect its findings to study habits."
-    - title: "02 — The Pen Is Mightier Than the Keyboard (Research Brief, original)"
-      url: "/assets/pdf/02ResearchBriefMuellerOppenheimer.docx"
-      download: true
-      description: "An earlier, more demanding version that also asks students to find and evaluate a follow-up study."
-    - title: "02 — The Pen Is Mightier Than the Keyboard (Research Friday, revised)"
-      url: "/assets/pdf/02ResearchFridayMuellerOppenheimer.docx"
-      download: true
-      description: "A more guided version focused on understanding the assigned article and applying its findings."
-    - title: "05 — Spacing and Interleaving in the Real World"
-      url: "/assets/pdf/05ResearchFridaySpacingInterleaving.docx"
-      download: true
-      description: "Find a study of spacing or interleaving in a field outside psychology."
-    - title: "06 — When Is Difficulty Desirable?"
-      url: "/assets/pdf/06ResearchFridayDesirableDifficulty.docx"
-      download: true
-      description: "Find and compare evidence supporting and complicating desirable difficulties."
-    - title: "07 — Reheating Dunning–Kruger's Nachos"
-      url: "/assets/pdf/07ResearchFridayDunningKruger.docx"
-      download: true
-      description: "Compare the original Dunning–Kruger research with a more recent study."
-    - title: "08 — Learning Styles"
-      url: "/assets/pdf/08ResearchFridayLearningStyles.docx"
-      download: true
-      description: "Evaluate a recent empirical test of learning styles and discuss connections with a partner."
-    - title: "09 — Motivation"
-      url: "/assets/pdf/09ResearchFridayMotivation.docx"
-      download: true
-      description: "Examine how motivation and learning strategies work together, then synthesize findings with a peer."
+    - title: "Do Students Practice Retrieval?"
+      description: "An early, guided reading of Karpicke, Butler, and Roediger's research on students' study strategies. Students work through the article section by section and connect the findings to their own habits."
+      pdf: "/assets/pdf/02ResearchFridayKarpicke.pdf"
+      word: "/assets/pdf/02ResearchFridayKarpicke.docx"
+    - title: "The Pen Is Mightier Than the Keyboard"
+      version: "Original Research Brief"
+      description: "My first version of the note-taking assignment, based on Mueller and Oppenheimer (2014). Students analyze the article and locate a follow-up study to see how later research engages with its findings."
+      pdf: "/assets/pdf/02ResearchBriefMuellerOppenheimer.pdf"
+      word: "/assets/pdf/02ResearchBriefMuellerOppenheimer.docx"
+    - title: "The Pen Is Mightier Than the Keyboard"
+      version: "Research Friday V2"
+      description: "A revised worksheet with more guidance through the original study's methods and findings, followed by reflection on note-taking strategies."
+      pdf: "/assets/pdf/02ResearchFridayMuellerOppenheimerV2.pdf"
+      word: "/assets/pdf/02ResearchFridayMuellerOppenheimerV2.docx"
+    - title: "Spacing and Interleaving in the Real World"
+      description: "Students find a study of spaced or interleaved practice outside psychology, then connect it to the learning strategies discussed in Make It Stick."
+      pdf: "/assets/pdf/05ResearchFridaySpacingInterleaving.pdf"
+      word: "/assets/pdf/05ResearchFridaySpacingInterleaving.docx"
+    - title: "When Is Difficulty Desirable?"
+      description: "Students compare two sources on desirable difficulties, considering when added difficulty might help learning and when it could get in the way."
+      pdf: "/assets/pdf/06ResearchFridayDesirableDifficulty.pdf"
+      word: "/assets/pdf/06ResearchFridayDesirableDifficulty.docx"
+    - title: "Reheating Dunning–Kruger's Nachos"
+      description: "Students read the original Kruger and Dunning research alongside a more recent study, then consider how scientific conclusions change and develop."
+      pdf: "/assets/pdf/07ResearchFridayDunningKruger.pdf"
+      word: "/assets/pdf/07ResearchFridayDunningKruger.docx"
+    - title: "Learning Styles"
+      description: "Students find a recent empirical study of learning styles, evaluate its methods and findings, and compare what they found with a classmate."
+      pdf: "/assets/pdf/08ResearchFridayLearningStyles.pdf"
+      word: "/assets/pdf/08ResearchFridayLearningStyles.docx"
+    - title: "Motivation"
+      description: "Students locate research on motivation and learning strategies, consider how the two interact, and compare their findings with a peer."
+      pdf: "/assets/pdf/09ResearchFridayMotivation.pdf"
+      word: "/assets/pdf/09ResearchFridayMotivation.docx"
 
 research-methods:
   note: "Open tools and instructional resources I use in research methods courses."
