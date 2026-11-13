@@ -102,6 +102,8 @@ jobs:
           done
           export JEKYLL_ENV=production
           bundle exec jekyll build
+          # Keep the custom domain file on the deployed gh-pages branch.
+          test -f _site/CNAME && grep -Fxq 'keithwylie.phd' _site/CNAME || { echo "Missing or incorrect custom-domain CNAME"; exit 1; }
           for docx in assets/pdf/[0-9][0-9]Research*.docx; do
             test -s "_site/${docx%.docx}.pdf" || { echo "Missing published PDF for $docx"; exit 1; }
           done
