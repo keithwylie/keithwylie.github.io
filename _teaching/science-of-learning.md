@@ -7,28 +7,20 @@ importance: 1
 img: /assets/img/learning.jpg
 ---
 
-Science of Learning introduces students to social scientific inquiry through questions about their own learning. We study attention, memory, motivation, metacognition, and study strategies, then examine the evidence behind common advice about learning.
-
-This Flagler Core Social Scientific Inquiry course emphasizes transformative learning: students use research to reconsider how they approach their own coursework.
+Science of Learning (COR 134) is a Flagler Core Social Scientific Inquiry course organized around a practical question: What does research on memory and learning tell us about how to study? Students examine retrieval practice, spacing, interleaving, metacognition, and motivation, then consider what the evidence means for their own coursework.
 
 ## How the Course Works
 
-In the face-to-face version, most weeks follow a recurring structure:
+Students read *Make It Stick* by Brown, Roediger, and McDaniel alongside empirical articles. In the face-to-face course, most weeks follow a recurring structure:
 
 - **Monday:** Introduce a concept and the research behind it.
-- **Wednesday:** Reflect, discuss, and apply what we have learned.
-- **Friday:** Practice finding, reading, and evaluating scientific research through *Research Friday*.
+- **Wednesday:** Reflect and Discuss activities that connect research with students' experiences.
+- **Friday:** Research Friday, with practice finding, reading, and evaluating primary research, often in collaboration with librarians.
 
-Students read *Make It Stick* by Brown, Roediger, and McDaniel alongside empirical articles, including work that challenges familiar assumptions about learning.
+Students also annotate readings, complete short quizzes, and develop a study plan they revisit after receiving feedback. At the end of the semester, they reflect on what happened when they put research-based study strategies into practice.
 
 ## Research Friday
 
-Research Friday is a sequence of short, recurring assignments developed in collaboration with librarians. Early activities introduce scholarly databases and the structure of empirical articles. Later work asks students to compare findings, evaluate methods, and connect evidence with course concepts.
-
-Activities have included examining research on retrieval practice and note-taking, locating studies of spacing and interleaving in applied settings, and evaluating claims about learning styles, growth mindset, and the Dunning–Kruger effect.
-
-## Signature Assignment
-
-Students develop an evidence-based study plan, try strategies over time, and reflect on what they would keep or revise.
+Research Friday provides repeated practice with scientific literature. Early assignments guide students through the structure of a journal article. Later activities ask them to locate studies independently, compare evidence, and consider how the findings apply to learning in different settings.
 
 {% include teaching_materials.liquid %}

@@ -2,7 +2,7 @@
 {% assign material_set = site.data.teaching_materials[teaching_slug] %}
 {% if material_set and material_set.items and material_set.items.size > 0 %}
 {% unless page.url contains 'learning-and-memory' %}
-<h2>Teaching Materials and Resources</h2>
+<h2>{{ material_set.heading | default: 'Teaching Materials and Resources' | escape }}</h2>
 {% endunless %}
 {% if material_set.note %}
 <p>{{ material_set.note | escape }}</p>
@@ -10,7 +10,7 @@
 <ul class="teaching-materials-list">
 {% for material in material_set.items %}
 <li>
-<a href="{{ material.url | escape }}" target="_blank" rel="noopener noreferrer">{{ material.title | escape }}</a>
+<a href="{{ material.url | escape }}"{% if material.download %} download{% else %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ material.title | escape }}</a>
 {% if material.type %}<span class="text-muted">({{ material.type | escape }})</span>{% endif %}
 {% if material.description %}<p>{{ material.description | escape }}</p>{% endif %}
 </li>
