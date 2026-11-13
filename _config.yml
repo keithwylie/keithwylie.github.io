@@ -17,7 +17,7 @@ keywords: Keith Wylie, Flagler College, legal psychology, forensic psychology, e
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚖️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://keithwylie.github.io # the base hostname & protocol for your site
+url: https://keithwylie.phd # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -69,7 +69,7 @@ max_width: 1240px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: https://keithwylie.github.io/assets/img/keith.jpg # Default image for link previews
+og_image: https://keithwylie.phd/assets/img/keith.jpg # Default image for link previews
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
