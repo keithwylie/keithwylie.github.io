@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://keithwylie.github.io/sitemap.xml
+Sitemap: https://keithwylie.phd/sitemap.xml
