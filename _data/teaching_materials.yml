@@ -10,6 +10,43 @@ learning-and-memory:
       type: "Original teaching materials"
       description: "Browser-based activities on conditioning, generalization, skill learning, memory phenomena, and related topics. Individual labs will be linked after standardization."
 
+science-of-learning:
+  heading: "Downloadable Research Friday Assignments"
+  note: "These editable Word worksheets correspond to different points in the semester; I'm sharing a selection, so some numbers are missing. You're welcome to use or adapt them. The two note-taking versions illustrate a revision: the Research Brief was a more demanding first draft, while the revised Research Friday worksheet provided more guided practice when I taught the course for a second semester and saw that students needed additional practice at that stage."
+  items:
+    - title: "02 — Do Students Practice Retrieval? (Karpicke et al.)"
+      url: "/assets/pdf/02ResearchFridayKarpicke.docx"
+      download: true
+      description: "Read an empirical article section by section and connect its findings to study habits."
+    - title: "02 — The Pen Is Mightier Than the Keyboard (Research Brief, original)"
+      url: "/assets/pdf/02ResearchBriefMuellerOppenheimer.docx"
+      download: true
+      description: "An earlier, more demanding version that also asks students to find and evaluate a follow-up study."
+    - title: "02 — The Pen Is Mightier Than the Keyboard (Research Friday, revised)"
+      url: "/assets/pdf/02ResearchFridayMuellerOppenheimer.docx"
+      download: true
+      description: "A more guided version focused on understanding the assigned article and applying its findings."
+    - title: "05 — Spacing and Interleaving in the Real World"
+      url: "/assets/pdf/05ResearchFridaySpacingInterleaving.docx"
+      download: true
+      description: "Find a study of spacing or interleaving in a field outside psychology."
+    - title: "06 — When Is Difficulty Desirable?"
+      url: "/assets/pdf/06ResearchFridayDesirableDifficulty.docx"
+      download: true
+      description: "Find and compare evidence supporting and complicating desirable difficulties."
+    - title: "07 — Reheating Dunning–Kruger's Nachos"
+      url: "/assets/pdf/07ResearchFridayDunningKruger.docx"
+      download: true
+      description: "Compare the original Dunning–Kruger research with a more recent study."
+    - title: "08 — Learning Styles"
+      url: "/assets/pdf/08ResearchFridayLearningStyles.docx"
+      download: true
+      description: "Evaluate a recent empirical test of learning styles and discuss connections with a partner."
+    - title: "09 — Motivation"
+      url: "/assets/pdf/09ResearchFridayMotivation.docx"
+      download: true
+      description: "Examine how motivation and learning strategies work together, then synthesize findings with a peer."
+
 research-methods:
   note: "Open tools and instructional resources I use in research methods courses."
   items:
