@@ -120,6 +120,7 @@ body.interior-page .projects .teaching-card-grid {
  ******************************************************************************/
 
 .teaching-materials-downloads {
+  max-width: 980px;
   list-style: none;
   padding: 0;
   margin: 0 0 2rem;
@@ -186,5 +187,22 @@ body.interior-page .projects .teaching-card-grid {
     .teaching-resource {
       grid-template-columns: 1fr;
     }
+  }
+}
+
+// Treat the official catalog description as a readable reference excerpt,
+// rather than using the site's large general-purpose quotation styling.
+.post > article blockquote.science-learning-catalog {
+  max-width: 980px;
+  margin: 0.75rem 0 1.4rem;
+  padding: 0.65rem 1rem;
+  background: transparent;
+  border-left: 3px solid var(--global-divider-color);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--global-text-color);
+
+  p {
+    margin: 0;
   }
 }
